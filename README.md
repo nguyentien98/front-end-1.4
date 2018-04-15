@@ -1,7 +1,9 @@
 # Bài tập Trainee Colombo 2018
 
 ## Frontend 1.4 : cắt 7 layout theo file PSD
+
 Cắt 7 layout theo file PSD cho trước
+
 Người thực hiện: [ Tiến Nguyễn ](https://github.com/tiennguyen98)
 
 ## Liên kết
