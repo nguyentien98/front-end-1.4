@@ -8,7 +8,7 @@
 	<div class="container contact">
 		<h1>Contact</h1>
 		<div class="col-12">
-			<img src="images/maps.png" alt="">
+			<div id="map"></div>
 		</div>
 		<div class="col-12">
 			<div class="row">
@@ -28,5 +28,20 @@
 		</div>
 		<div class="clear"></div>
 	</div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLyg2ZHsmwAI13CnaC0di4ghwUFlYE0_c&callback=initMap"></script>
+	<script>
+		function initMap() {
+			var uluru = {lat: 21.0089241, lng: 105.8181496};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 15,
+				center: uluru
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+
+	</script>
 </body>
 </html>
